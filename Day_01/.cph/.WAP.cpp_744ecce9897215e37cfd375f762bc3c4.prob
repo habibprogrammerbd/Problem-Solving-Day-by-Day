@@ -1,0 +1,1 @@
+{"name":"Local: WAP","url":"/home/habibprogrammer/Desktop/A work/Problem Solving/Day_01/WAP.cpp","tests":[{"id":1782717794920,"input":"5 \n6 3 2 1 8\n4\n1\n5\n2\n9","output":"YES\nNO\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/habibprogrammer/Desktop/A work/Problem Solving/Day_01/WAP.cpp","group":"local","local":true}
