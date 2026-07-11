@@ -11,17 +11,15 @@ int main()
         int a, x, y;
         cin >> a >> x >> y;
 
-        int ans1 = a / x;
-        int ans2 = a - y;
+        int n = (a + x - 1) / x;
 
-        if (a % y == 0)
+        int p = 1;
+        if (a > y)
         {
-            cout << ans2 +1 << endl;
-        }    
-        else
-        {
-            cout << ans1 << endl;
+            p = p + (a - y + x - 1) / x;
         }
+
+        cout << min(n, p) << endl;
     }
 
     return 0;
